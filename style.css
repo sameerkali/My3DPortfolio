@@ -27,37 +27,67 @@ canvas {
   text-align: center;
 }
 
-.ball-text0 {
+.ball-text-upper {
   position: fixed;
   z-index: 2;
   font-size: 7rem;
-  right: 5%;
+  right: 8%;
   bottom: 60%;
-  transform: translate(-20%, -40%);
+  text-align: center;
+  transform: translate(-30%, -40%);
+  color: #49b3bf81;
+
 }
-.ball-text1 {
+
+.ball-text-middle {
   position: fixed;
   z-index: 2;
   font-size: 7rem;
-  right: 5%;
+  right: -18%;
   bottom: 60%;
-  transform: translate(-20%, -40%);
+  text-align: center;
+  color: #49b3bf81;
+  transform: translate(-30%, -40%);
 }
-.ball-text2 {
+.ball-text-middle2 {
   position: fixed;
   z-index: 2;
   font-size: 7rem;
-  right: 5%;
+  right: 35%;
+  text-align: center;
+  color: #49b3bf81;
   bottom: 60%;
-  transform: translate(-20%, -40%);
+  transform: translate(-30%, -40%);
 }
-.ball-text3 {
+.ball-text-middle3 {
   position: fixed;
   z-index: 2;
   font-size: 7rem;
-  right: 5%;
+  right: 20%;
   bottom: 60%;
-  transform: translate(-20%, -40%);
+  color: #49b3bf81;
+  text-align: center;
+  transform: translate(-30%, -40%);
+}
+.ball-text-bottom {
+  position: fixed;
+  z-index: 2;
+  font-size: 7rem;
+  right: 20%;
+  bottom: 60%;
+  color: #49b3bf81;
+  text-align: center;
+  transform: translate(-30%, -40%);
+}
+.ball-text {
+  position: fixed;
+  z-index: 2;
+  font-size: 7rem;
+  right: -10%;
+  bottom: 60%;
+  color: #49b3bf81;
+  text-align: center;
+  transform: translate(-30%, -40%);
 }
 
 .heading {

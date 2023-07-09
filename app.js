@@ -22,7 +22,7 @@ gsap.to(ball, {
   snap: "frame",
   ease: "none",
   scrollTrigger: {
-    scrub: 0.5,
+    scrub: true,
     pin: "canvas",
     end: "500%",
   },
@@ -30,23 +30,132 @@ gsap.to(ball, {
 });
 
 gsap.fromTo(
-  ".ball-text3",
+  ".ball-text",
   {
     opacity: 0,
   },
   {
     opacity: 1,
     scrollTrigger: {
-      scrub: 1,
+      scrub: .7,
 
       start: "50%",
       end: "55%",
     },
     onComplete: () => {
-      gsap.to(".ball-text3", { opacity: 0 });
+      gsap.to(".ball-text", { opacity: 0 });
     },
   }
 );
+
+
+
+
+gsap.fromTo(
+  ".ball-text-upper",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: .9,
+    scrollTrigger: {
+      scrub: true,
+
+      start: "0%",
+      end: "6%",
+    },
+    onComplete: () => {
+      gsap.to(".ball-text-upper", { opacity: 0 });
+    },
+  }
+);
+
+
+
+
+gsap.fromTo(
+  ".ball-text-middle",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: .9,
+    scrollTrigger: {
+      scrub: true,
+
+      start: "9%",
+      end: "14%",
+    },
+    onComplete: () => {
+      gsap.to(".ball-text-middle", { opacity: 0 });
+    },
+  }
+);
+
+
+
+
+gsap.fromTo(
+  ".ball-text-middle2",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: .9,
+    scrollTrigger: {
+      scrub: true,
+
+      start: "16%",
+      end: "20%",
+    },
+    onComplete: () => {
+      gsap.to(".ball-text-middle2", { opacity: 0 });
+    },
+  }
+);
+
+
+
+
+gsap.fromTo(
+  ".ball-text-middle3",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: .9,
+    scrollTrigger: {
+      scrub: true,
+
+      start: "22%",
+      end: "30%",
+    },
+    onComplete: () => {
+      gsap.to(".ball-text-middle3", { opacity: 0 });
+    },
+  }
+);
+
+gsap.fromTo(
+  ".ball-text-bottom",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    scrollTrigger: {
+      scrub: true,
+
+      start: "33%",
+      end: "40%",
+    },
+    onComplete: () => {
+      gsap.to(".ball-text-bottom", { opacity: 0 });
+    },
+  }
+);
+
+
 
 images[0].onload = render;
 

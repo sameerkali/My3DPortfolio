@@ -1,0 +1,57 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.main-color{
+  color: rgba(255, 255, 255, 0.333);
+
+}
+.center {
+  /* justify-content: center; */
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.experiance {
+  height: 70vh;
+}
+.experiance .line {
+  /* position: relative; */
+  height: 2px;
+  width: 80vw;
+  background: white;
+  margin: 50px auto;
+  display: flex;
+  /* flex-direction: row; */
+}
+.experiance .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 150px;
+}
+.vertical .vertical-title {
+  width: 250px;
+  font-size: 22px;
+  color: white;
+  top: 40px;
+  position: relative;
+  margin-left: 1.5rem;
+}
+.vertical .vertical-description {
+  width: 250px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.333);
+  top: 40px;
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 1.5rem;
+}
+.date{
+    position: relative;
+    top: 40px;
+    width: 250px;
+    margin-left: 1.5rem;
+    font-size: 13px;
+}
